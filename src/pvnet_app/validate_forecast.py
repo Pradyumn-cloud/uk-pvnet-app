@@ -133,7 +133,7 @@ def check_forecast_positive_during_daylight(
         logger.warning(
             f"{model_name}: Forecast values must be > 0 when sun elevation > "
             f"{sun_elevation_lower_limit} degree."
-            f"Timestamps: {Timestamps_str}"
+            f" Timestamps : {Timestamps_str}"
         )
         forecast_okay = False
     
